@@ -1,1 +1,1 @@
-GIT is free software 
+GIT is free software  GPL 
