@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-26T01:07:44.878Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="6kacLCw08tP3kk_AxufA" version="24.6.2" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2024-06-26T01:14:09.547Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="xAabvUHKSL5oPTB1mSHF" version="24.6.2" type="github" pages="9">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="文档中心类图">
     <mxGraphModel dx="984" dy="660" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -638,6 +638,68 @@
     </mxGraphModel>
   </diagram>
   <diagram id="oBANE6jkP42jadWpWSOd" name="用户登录流程图">
+    <mxGraphModel dx="984" dy="660" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="JN3E5tZNw6GuL7Ik5Suc-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="JN3E5tZNw6GuL7Ik5Suc-1" target="JN3E5tZNw6GuL7Ik5Suc-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JN3E5tZNw6GuL7Ik5Suc-1" value="访问登录页面" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JN3E5tZNw6GuL7Ik5Suc-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="JN3E5tZNw6GuL7Ik5Suc-2" target="JN3E5tZNw6GuL7Ik5Suc-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JN3E5tZNw6GuL7Ik5Suc-2" value="集团统一登录" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JN3E5tZNw6GuL7Ik5Suc-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="JN3E5tZNw6GuL7Ik5Suc-3" target="JN3E5tZNw6GuL7Ik5Suc-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JN3E5tZNw6GuL7Ik5Suc-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="JN3E5tZNw6GuL7Ik5Suc-3" target="JN3E5tZNw6GuL7Ik5Suc-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JN3E5tZNw6GuL7Ik5Suc-3" value="后台验证token" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JN3E5tZNw6GuL7Ik5Suc-4" value="登录成功" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JN3E5tZNw6GuL7Ik5Suc-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="JN3E5tZNw6GuL7Ik5Suc-5" target="JN3E5tZNw6GuL7Ik5Suc-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JN3E5tZNw6GuL7Ik5Suc-5" value="登录失败" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JN3E5tZNw6GuL7Ik5Suc-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="JN3E5tZNw6GuL7Ik5Suc-13" target="JN3E5tZNw6GuL7Ik5Suc-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JN3E5tZNw6GuL7Ik5Suc-13" value="访问登录页面" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JN3E5tZNw6GuL7Ik5Suc-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="JN3E5tZNw6GuL7Ik5Suc-14" target="JN3E5tZNw6GuL7Ik5Suc-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JN3E5tZNw6GuL7Ik5Suc-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="JN3E5tZNw6GuL7Ik5Suc-14" target="JN3E5tZNw6GuL7Ik5Suc-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JN3E5tZNw6GuL7Ik5Suc-14" value="后台验证密码" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JN3E5tZNw6GuL7Ik5Suc-15" value="登录成功" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JN3E5tZNw6GuL7Ik5Suc-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="JN3E5tZNw6GuL7Ik5Suc-16" target="JN3E5tZNw6GuL7Ik5Suc-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JN3E5tZNw6GuL7Ik5Suc-16" value="登录失败" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="WyiBkeejzow_RX6OAYiM" name="文档中心流程图">
     <mxGraphModel dx="984" dy="660" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
