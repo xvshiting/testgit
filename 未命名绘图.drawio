@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-26T02:19:46.473Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="B0jupFjQoioyaaco_kAx" version="24.6.2" type="github" pages="14">
+<mxfile host="app.diagrams.net" modified="2024-06-26T05:42:56.185Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="Px8CZyc2Etf2TRILonRB" version="24.6.2" type="github" pages="14">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="文档中心类图">
     <mxGraphModel dx="984" dy="660" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -990,6 +990,21 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Ckef03YbSFkHcBaz3RWe-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ckef03YbSFkHcBaz3RWe-1" target="Ckef03YbSFkHcBaz3RWe-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ckef03YbSFkHcBaz3RWe-1" value="管理员新建apikey" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ckef03YbSFkHcBaz3RWe-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ckef03YbSFkHcBaz3RWe-2" target="Ckef03YbSFkHcBaz3RWe-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ckef03YbSFkHcBaz3RWe-2" value="后台保存apikey到数据库" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ckef03YbSFkHcBaz3RWe-3" value="返回新建apikey成功" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
